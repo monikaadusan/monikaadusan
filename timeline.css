@@ -1,0 +1,48 @@
+/* Timeline Container */
+.timeline {
+  position: relative;
+  margin: 0 3rem;
+}
+
+.max-width-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Vertical Line */
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 5px;
+  width: 1px;
+  background-color: var(--bs-white);
+}
+
+/* Timeline Item */
+.timeline-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+/* Circle */
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  background-color: var(--bs-white);
+  border-radius: 50%;
+}
+
+/* Text Alignment */
+.timeline-content {
+  margin-left: 50px;
+}
+
+.timeline-dots {
+  margin-left: 50px;
+}

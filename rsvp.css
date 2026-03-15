@@ -1,0 +1,33 @@
+.btn-rsvp {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1050;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  border: 0.5px solid var(--bs-offwhite);
+  background-color: var(--bs-lightorange);
+}
+
+.btn-rsvp:hover,
+.btn-rsvp:active,
+.btn-rsvp:focus,
+.btn-rsvp:focus-visible {
+  background-color: var(--bs-orange) !important;
+}
+
+.btn-rsvp:hover {
+  transform: scale(1.2);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.9);
+}
+
+.btn-rsvp.hidden {
+  opacity: 0;
+  pointer-events: none;
+}

@@ -1,0 +1,76 @@
+#landing-page{
+  background-color: var(--bs-orange);
+  margin:0 auto;
+  max-width:80vw;
+  min-height:80vh;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  position:relative;
+  color:var(--bs-offwhite);
+}
+
+.landing-collage{
+  position:relative;
+  width:100%;
+  height:80vh;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.pattern-bar {
+  width: 100vw;
+  height: 20vh;
+  background-image: url('images/pattern.png');
+  background-repeat: repeat;
+  background-size: 600px 600px;
+  border-bottom: 4px solid rgba(255, 255, 255, 0.15);
+  /* mask-image: linear-gradient(to bottom, black 40%, transparent); */
+}
+
+.landing-photo {
+  position: absolute;
+  width: clamp(160px, 16vw, 260px);
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  background: var(--bs-offwhite);
+  padding: 10px 10px 30px 10px;
+  box-shadow:
+    0 10px 20px rgba(0, 0, 0, 0.25),
+    0 20px 40px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  border-radius: 5px;
+  /* Slightly overlap */
+  z-index: 1;
+}
+
+.landing-photo:hover {
+  transform: translate(0, 0) scale(1.1) rotate(0deg);
+  z-index: 10 !important;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.photo1 {
+  top: 55%;
+  left: 22%;
+  transform: rotate(-12deg);
+  z-index: 1;
+}
+.photo2 {
+  top: 65%;
+  left: 40%;
+  transform: rotate(0deg);
+  z-index: 2;
+}
+.photo3 {
+  top: 57%;
+  left: 65%;
+  transform: rotate(5deg);
+  z-index: 1;
+}

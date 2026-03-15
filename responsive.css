@@ -1,0 +1,76 @@
+@media (max-width: 768px) {
+  section {
+    padding: 1rem;
+  }
+
+  /* Countdown */
+  .countdown {
+    gap: 0.75rem;
+  }
+
+  .countdown-item {
+    padding: 1rem;
+    width: 70px;
+    height: 70px;
+  }
+
+  .countdown-number {
+    font-size: 24px;
+  }
+
+  .countdown-label {
+    font-size: 9px;
+  }
+
+  #map,
+  #rsvp {
+    padding: 0 !important;
+  }
+
+  h2 {
+    margin-bottom: 1.5rem;
+  }
+
+  .places {
+    gap: 0.75rem;
+  }
+
+  .place {
+    margin-bottom: 1rem;
+  }
+
+  .place .fa-3x {
+    font-size: 1.5rem;
+  }
+
+  .place i {
+    margin: 1rem 1rem 0.5rem 1rem;
+  }
+
+  .place div {
+    margin: 0.2rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .place span {
+    font-size: 12px;
+  }
+
+  .place .label {
+    margin: 0.5rem 1rem 1rem 1rem;
+    font-size: 9px;
+    text-transform: uppercase;
+  }
+
+  .timeline {
+    margin: 0 0.4rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .polaroid-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

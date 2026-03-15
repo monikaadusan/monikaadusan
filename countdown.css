@@ -1,0 +1,30 @@
+.countdown {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.countdown-item {
+  text-align: center;
+  width: 200px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid var(--bs-lightorange);
+}
+
+.countdown-item:last-child {
+  border-right: none;
+}
+
+.countdown-number {
+  font-size: 50px;
+  color: var(--bs-white);
+}
+
+.countdown-label {
+  font-size: 18px;
+  color: var(--bs-white);
+}
