@@ -11,15 +11,15 @@
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;
-  border: 0.5px solid var(--bs-offwhite);
-  background-color: var(--bs-lightorange);
+  border: 0.5px solid var(--offwhite);
+  background-color: var(--lightorange);
 }
 
 .btn-rsvp:hover,
 .btn-rsvp:active,
 .btn-rsvp:focus,
 .btn-rsvp:focus-visible {
-  background-color: var(--bs-orange) !important;
+  background-color: var(--orange) !important;
 }
 
 .btn-rsvp:hover {

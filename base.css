@@ -3,17 +3,13 @@ html {
 }
 
 body {
-  background-color: var(--bs-orange);
-  /* background-image: url('images/pattern.png');
-  background-repeat: repeat;
-  background-size: 500px 500px;
-  color: var(--bs-orange); */
+  background-color: var(--orange);
   margin: 0;
   font-family: "IMFellEnglish-Regular", serif;
 }
 
 section {
-  background-color: var(--bs-orange);
+  background-color: var(--orange);
   padding: 3rem;
   margin: 0 auto;
   max-width: 80vw;
@@ -49,39 +45,13 @@ h2 {
 }
 
 :root {
-  --bs-orange: #9f5114;
-  --bs-lightorange: #ceac99;
-  --bs-offwhite: #faf7f2;
-  --bs-white: #fff;
+  --orange: #9f5114;
+  --lightorange: #ceac99;
+  --offwhite: #faf7f2;
+  --white: #fff;
 }
 
 @font-face {
   font-family: "IMFellEnglish-Regular";
   src: url("fonts/IMFellEnglish-Regular.ttf");
-}
-
-.text-orange {
-  color: var(--bs-orange);
-}
-.text-ligthorange {
-  color: var(--bs-ligthorange);
-}
-.text-white {
-  color: var(--bs-white);
-}
-.text-offwhite {
-  color: var(--bs-offwhite);
-}
-
-.bg-orange {
-  background-color: var(--bs-orange);
-}
-.bg-ligthorange {
-  background-color: var(--bs-ligthorange);
-}
-.bg-white {
-  background-color: var(--bs-white);
-}
-.bg-offwhite {
-  background-color: var(--bs-offwhite);
 }

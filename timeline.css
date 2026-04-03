@@ -17,7 +17,7 @@
   bottom: 0;
   left: 5px;
   width: 1px;
-  background-color: var(--bs-white);
+  background-color: var(--white);
 }
 
 /* Timeline Item */
@@ -34,7 +34,7 @@
   position: absolute;
   width: 11px;
   height: 11px;
-  background-color: var(--bs-white);
+  background-color: var(--white);
   border-radius: 50%;
 }
 
@@ -45,4 +45,72 @@
 
 .timeline-dots {
   margin-left: 50px;
+}
+
+@media (max-width: 768px) {
+  .timeline {
+    margin: 0 1rem;
+  }
+
+  .timeline::before {
+    left: 3px;
+  }
+
+  .timeline-item {
+    margin-bottom: 30px;
+  }
+
+  .timeline-content {
+    margin-left: 40px;
+  }
+
+  .timeline-dots {
+    margin-left: 40px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .timeline {
+    margin: 0 0.5rem;
+  }
+
+  .timeline::before {
+    left: 2px;
+  }
+
+  .timeline-item {
+    margin-bottom: 25px;
+  }
+
+  .timeline-item::before {
+    width: 9px;
+    height: 9px;
+  }
+
+  .timeline-content {
+    margin-left: 30px;
+    font-size: 0.9rem;
+  }
+
+  .timeline-dots {
+    margin-left: 30px;
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .timeline {
+    margin: 0 0.25rem;
+  }
+
+  .timeline-content {
+    margin-left: 25px;
+    font-size: 0.8rem;
+  }
+
+  .timeline-dots {
+    margin-left: 25px;
+    font-size: 0.75rem;
+  }
 }

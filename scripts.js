@@ -58,7 +58,6 @@ function initMap() {
     { lat: 47.757287, lng: 18.126820, title: 'Bazilika sv. Ondreja' },
     { lat: 47.758476, lng: 18.126275, title: 'Hotel Banderium' },
     { lat: 47.756625, lng: 18.124479, title: 'Hotel Danubius' },
-    { lat: 47.756408, lng: 18.125321, title: 'Penzión Litovel' }
   ];
   
   var map = L.map('map-container', {
@@ -129,7 +128,6 @@ function initFloatingButtonVisibility(selector = '#rsvp', buttonSelector = '#rsv
 
 function initCalendarButton() {
   const calendarBtn = document.querySelector('.calendar-btn');
-  console.log('Calendar button:', calendarBtn);
   if (calendarBtn) {
     calendarBtn.addEventListener('click', function() {
       addToCalendar();
@@ -138,9 +136,8 @@ function initCalendarButton() {
 }
 
 function addToCalendar() {
-  console.log('Adding event to calendar...');
   const eventTitle = 'Svadba - Monika & Dušan';
-  const eventDate = new Date('October 3, 2026 15:00:00');
+  const eventDate = new Date('October 3, 2026 14:00:00');
   const eventEndDate = new Date('October 4, 2026 4:00:00');
   const eventLocation = 'Komárno, Slovakia';
   

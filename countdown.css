@@ -12,7 +12,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-right: 1px solid var(--bs-lightorange);
+  border-right: 1px solid var(--lightorange);
 }
 
 .countdown-item:last-child {
@@ -21,10 +21,10 @@
 
 .countdown-number {
   font-size: 50px;
-  color: var(--bs-white);
+  color: var(--white);
 }
 
 .countdown-label {
   font-size: 18px;
-  color: var(--bs-white);
+  color: var(--white);
 }
